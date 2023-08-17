@@ -60,3 +60,30 @@ exercises.c:22:1: error: expected identifier or ‘(’ before ‘}’ token
       | ^
 Compilation failed
 7133175
+Thu 17 Aug 2023 08:30:03 PM UTC: 
+ exercises.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+In file included from test.c:1:
+exercises.c:14:13: error: ‘arr’ undeclared here (not in a function)
+   14 |   int mayor=arr[0];
+      |             ^~~
+exercises.c:15:3: error: expected identifier or ‘(’ before ‘for’
+   15 |   for(int i=0; i < size ; i++){
+      |   ^~~
+exercises.c:15:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   15 |   for(int i=0; i < size ; i++){
+      |                  ^
+exercises.c:15:28: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+   15 |   for(int i=0; i < size ; i++){
+      |                            ^~
+exercises.c:21:3: error: expected identifier or ‘(’ before ‘return’
+   21 |   return mayor;
+      |   ^~~~~~
+exercises.c:22:1: error: expected identifier or ‘(’ before ‘}’ token
+   22 | }
+      | ^
+exercises.c:30:1: error: expected identifier or ‘(’ before ‘{’ token
+   30 | {
+      | ^
+Compilation failed
+0b4a836

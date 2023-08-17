@@ -12,7 +12,7 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 int findMax(int arr[], int size) { return 0; }
   
   int mayor=arr[0];
-  for(int i=0; i<size ; i++){
+  for(int i=0; i < size ; i++){
     if(arr[i]>mayor)
     {
       mayor=arr[i]
@@ -27,6 +27,16 @@ Descripción: Escribe una función que tome un arreglo y su tamaño, y luego
 invierta el orden de sus elementos.
 */
 void reverseArray(int arr[], int size) {}
+{
+  int cont = 1;
+  for (int i = 0; i < size / 2; i++) {
+    int temp = arr[i];
+    arr[i] = arr[size - cont];
+    arr[size - cont] = temp;
+    cont++;
+    }
+
+}
 
 /*
 Ejercicio 3: Filtrar Números Pares
