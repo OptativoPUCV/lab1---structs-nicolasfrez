@@ -50,7 +50,7 @@ los números pares del arreglo original.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize)
 {
-
+/*
   int *pares (int*) malloc(size * sizeof(int));
   int contPares = 0;
   
@@ -63,7 +63,9 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
   *newSize = cont;
   return pares;
 }
-
+*/
+  return NULL;
+}
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados
 Descripción: Escribe una función que tome dos arreglos
