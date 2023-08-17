@@ -11,8 +11,9 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 */
 int findMax(int arr[], int size) { return 0; }
   
-  int mayor = arr[0];
+  int mayor;
   for(int i=0; i < size ; i++){
+    mayor=arr[i];
     if(arr[i]>mayor)
     {
       mayor=arr[i]
@@ -45,7 +46,7 @@ los números pares del arreglo original.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) { return NULL; }
 
-  int *pares (int*)malloc(size * sizeof(int));
+  int *pares (int*) malloc(size * sizeof(int));
   int contPares = 0;
   
   for(int i=0; i<size; i++){
