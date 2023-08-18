@@ -66,13 +66,13 @@ int *resultado = (int *)malloc(contador * sizeof(int));
         return NULL; 
     }
 
-  int indice = 0;
+  int par = 0;
   for(int i=0 ; i < size ; i++)
     {
       if (arr[i] % 2 == 0)
       {
-        resultado[indice] = arr[i];
-        indice++;
+        resultado[par] = arr[i];
+        par++;
       }
     }
   *newSize = contador;
