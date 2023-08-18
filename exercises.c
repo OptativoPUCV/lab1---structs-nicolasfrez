@@ -63,9 +63,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
   }
   *newSize = contPares;
   return pares;
-}
-*/
-  return NULL;
+
 }
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados
