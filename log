@@ -4599,3 +4599,9 @@ exercises.c:87:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 1bcad3b
+Fri 18 Aug 2023 09:22:10 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+b8efa80
