@@ -4510,3 +4510,14 @@ exercises.c:65:13: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 c0eb836
+Fri 18 Aug 2023 09:03:43 PM UTC: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:64:10: error: ‘nuevoTamano’ undeclared (first use in this function)
+   64 |         *nuevoTamano = 0;
+      |          ^~~~~~~~~~~
+exercises.c:64:10: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+42722ea
