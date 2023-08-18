@@ -75,7 +75,7 @@ int *resultado = (int *)malloc(contador * sizeof(int));
         par++;
       }
     }
-  *newSize = contador;
+//  *newSize = contador;
   return resultado;
 }
 /*
