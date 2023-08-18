@@ -4581,3 +4581,21 @@ exercises.c:87:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 ac57512
+Fri 18 Aug 2023 09:21:52 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:100:17: error: ‘i’ undeclared (first use in this function)
+  100 |   return result[i];
+      |                 ^
+exercises.c:100:17: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:100:10: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+  100 |   return result[i];
+      |          ^~~~~~
+exercises.c:87:6: note: declared here
+   87 | void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
+      |      ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1bcad3b
