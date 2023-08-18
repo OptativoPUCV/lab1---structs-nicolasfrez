@@ -50,20 +50,33 @@ los números pares del arreglo original.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize)
 {
-
-  int *pares (int*) malloc(size * sizeof(int));
-  int contPares = 0;
-  
-  for(int i=0; i < size; i++){
-    if (arr[i] % 2 == 0)
+  int contador = 0;
+  for(int i=0; i < size ; i++)
     {
-      pares[contPares] = arr[i];
-      contPares++;
+      if (arr[i] % 2 == 0)
+      {
+        contador++;
+      }
     }
-  }
-  *newSize = contPares;
-  return pares;
 
+  int *resultado = (int *)malloc(contador * sizeof(int));
+  if(resultado==NULL)
+  {
+    *newSize == 0;
+    return NULL;
+  }
+
+  int indice = 0;
+  for(int i=0 ; i < size ; i++)
+    {
+      if (arr[i] % 2 == 0)
+      {
+        resultado[indice] = arr[i];
+        indice++;
+      }
+    }
+  *newSize = contador;
+  return resultado;
 }
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados

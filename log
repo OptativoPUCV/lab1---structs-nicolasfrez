@@ -4488,3 +4488,14 @@ exercises.c:54:8: error: ‘pares’ defined but not used [-Werror=unused-functi
 cc1: all warnings being treated as errors
 Compilation failed
 99badfe
+Fri 18 Aug 2023 09:01:33 PM UTC: 
+ exercises.c | 29 +++++++++++++++++++++--------
+ 1 file changed, 21 insertions(+), 8 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:65:14: error: statement with no effect [-Werror=unused-value]
+   65 |     *newSize == 0;
+      |     ~~~~~~~~~^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a7a55ad
