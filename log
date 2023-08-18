@@ -4550,3 +4550,17 @@ Fri 18 Aug 2023 09:06:44 PM UTC:
  tests:  0|4
 total_score: 30/70
 f790e8f
+Fri 18 Aug 2023 09:21:33 PM UTC: 
+ exercises.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:100:10: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+  100 |   return result;
+      |          ^~~~~~
+exercises.c:87:6: note: declared here
+   87 | void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
+      |      ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+de0a801
