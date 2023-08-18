@@ -61,7 +61,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
 
 int *resultado = (int *)malloc(contador * sizeof(int));
     if (resultado == NULL) {
-        *nuevoTamano = 0;
+        *newSize = 0;
         return NULL; 
     }
 

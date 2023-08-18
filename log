@@ -4521,3 +4521,9 @@ exercises.c:64:10: error: ‘nuevoTamano’ undeclared (first use in this functi
 exercises.c:64:10: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 42722ea
+Fri 18 Aug 2023 09:03:56 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+4f8b374
